@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto:wght@300;400;700&display=swap);.card {
+  width: 15%;
+}
+.card .title {
+  color: white;
+  padding: 5px 0;
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 10px;
+     object-position: 0px 10px;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn a {
+  padding: 5px 30px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #0282f9;
+}
+.btn a:hover {
+  opacity: 0.9;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,17 @@
+.btn {
+    width: 100%;
+    text-align: center;
+    color: white;
+    &:active {
+        transform: scale(0.98);
+    }
+    a {
+        padding: 5px 30px;
+        color: white;
+        text-transform: uppercase;
+        background-color: #0282f9;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}

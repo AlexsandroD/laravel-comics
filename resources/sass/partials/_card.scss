@@ -1,0 +1,17 @@
+.card {
+    width: 15%;
+    .title {
+        color: white;
+        padding: 5px 0;
+    }
+    img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: 0px 10px;
+    }
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
