@@ -1,0 +1,19 @@
+.jumbo {
+    position: relative;
+    background-image: url("/images/jumbotron.jpg");
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    label {
+        position: absolute;
+        bottom: -20px;
+        left: 200px;
+        background-color: $main-color;
+        font-size: 20px;
+        padding: 10px 20px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

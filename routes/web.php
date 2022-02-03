@@ -229,4 +229,58 @@ Route::get('/', function() {
     ],
 ];
     return view('home',["comics"=> $comics]);
+        // $navs = [
+    //      [
+    //           'navLi'=>'characters',
+    //           'href'=>'#footer',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'comics',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'movies',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'tv',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'games',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'collectibles',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'videos',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'fans',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'news',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //      [
+    //           'navLi'=>'shop',
+    //           'href'=>'#',
+    //           'state'=>false
+    //      ],
+    //     ];
 });
+
+
